@@ -29,22 +29,10 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col s12 center-align">
-                <a href="/dashboard" class="btn {{ Config::get('template.primary-color') }}">Start here</a>
-            </div>
-        </div>
+
     </div> 
 </div>
-<div class="section no-pad-bot" id="index-banner">
-    <div class="container">
-        <div class="row">
-            <div class="col s12 center-align">
-                <h3>Contact form</h3>
-            </div>
-        </div>
-    </div> 
-</div>
+
 @stop
 
 @section('scripts')
