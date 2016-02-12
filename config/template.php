@@ -13,14 +13,14 @@ return [
     |
     */
 
-    'primary-color' => 'indigo',
+    'primary-color' => 'blue-grey',
 
     'company' => 'Tattvika',
-    'product' => 'Tattvika',
+    'product' => 'Development',
     'brand' => 'Tattvika',
     'benefits' => [
         'Solutions which make your life easier',
-        'Back-end development',
-        'Front-end development',
+        'Web solution development',
+        'Office solution development',
     ],
 ];

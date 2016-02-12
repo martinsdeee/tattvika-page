@@ -1,2 +1,36 @@
 @import "./materialize/materialize.scss";
 
+.valign-wrapper {
+        height:100vh;
+    }
+
+/* Header */
+.large-header {
+  position: relative;
+  width: 100%;
+  background: #333;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;
+  z-index: 1;
+}
+#large-header {
+    background: rgba(255,255,255,1);
+}
+
+.header {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    color: #f9f1e9;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    font-weight: 700;
+    -webkit-transform: translate3d(-50%,-50%,0);
+    transform: translate3d(-50%,-50%,0);
+}
+.header .thin {
+    font-weight: 200;
+}
+
